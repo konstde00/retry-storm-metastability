@@ -1,0 +1,7 @@
+true parameter sets=544 (S 2-5, T 2-6, Rmax 1-4, Qmax 6-12, Qmax>T), with a strongly metastable state: 179; neighbours compared=4152; 9s
+  all                    n=4152  same verdict  88.0%  same trigger  81.6%  identical strong set  60.2%  identical weak set   4.4%  mean Jaccard strong 0.74 weak 0.72
+  true model metastable  n=1432  same verdict  84.2%  same trigger  55.3%  identical strong set   3.8%  identical weak set   3.8%  mean Jaccard strong 0.45 weak 0.72
+  off by 1 in S          n=1088  same verdict  78.7%  same trigger  67.8%  identical strong set  54.6%  identical weak set   0.0%  mean Jaccard strong 0.56 weak 0.41
+  off by 1 in T          n=1056  same verdict  96.4%  same trigger  76.5%  identical strong set  64.6%  identical weak set   0.0%  mean Jaccard strong 0.83 weak 0.78
+  off by 1 in Rmax       n= 952  same verdict  79.8%  same trigger  88.1%  identical strong set  56.9%  identical weak set  19.3%  mean Jaccard strong 0.74 weak 0.87
+  off by 1 in Qmax       n=1056  same verdict  96.4%  same trigger  94.9%  identical strong set  64.6%  identical weak set   0.0%  mean Jaccard strong 0.84 weak 0.83

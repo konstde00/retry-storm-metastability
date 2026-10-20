@@ -1,0 +1,76 @@
+evaluating 19470 parameter sets with 32 processes
+  1000/19470
+  2000/19470
+  3000/19470
+  4000/19470
+  5000/19470
+  6000/19470
+  7000/19470
+  8000/19470
+  9000/19470
+  10000/19470
+  11000/19470
+  12000/19470
+  13000/19470
+  14000/19470
+  15000/19470
+  16000/19470
+  17000/19470
+  18000/19470
+  19000/19470
+gate Section 3.1 (S3 T4 R3 Q10): trigger 10 strong 13 min_total 10 min_peak 4 -> OK
+gate round-1 reproduction: OK
+oddity: small-grid metastable models per Rmax {2: 32, 3: 61, 4: 86}; Rmax-2 skipped 136 = 136 safe + 0 metastable
+rule check small: 544 models, 179 metastable, 0 mismatches with (Rmax >= S and T + S <= Qmax)
+rule check large: 14256 models, 6744 metastable, 0 mismatches with (Rmax >= S and T + S <= Qmax)
+rule check all 19470 evaluated parameter sets: 0 mismatches
+large grid: 6744 metastable, 1884 with no single-spike trigger (all have a finite pattern trigger: True)
+
+round-1 grid: share of metastable models
+mitigation  n            removed     unreachable  trigger_raised    trigger_same  trigger_lowere  timeout_disabl  timeout_disabl  created
+Rmax-1       179           48.0%           15.6%            0.0%           36.3%            0.0%            0.0%            0.0%        0
+Rmax-2       179           82.1%            3.9%            0.0%           14.0%            0.0%            0.0%            0.0%        0
+T+1          179           12.3%           41.3%           46.4%            0.0%            0.0%            0.0%            0.0%        0
+T+2          179           22.3%           40.2%           32.4%            0.0%            0.0%            5.0%            0.0%        0
+S+1          179           53.6%           26.3%           20.1%            0.0%            0.0%            0.0%            0.0%        0
+Qmax-1       179           12.3%           41.3%            0.0%           46.4%            0.0%            0.0%            0.0%        0
+pattern triggers (min total load | min peak load): removed/raised/same/lowered
+  Rmax-1     total          48%/0%/52%/0% | peak          48%/0%/52%/0%
+  Rmax-2     total          82%/0%/18%/0% | peak          82%/0%/18%/0%
+  T+1        total          12%/88%/0%/0% | peak         12%/14%/74%/0%
+  T+2        total          27%/73%/0%/0% | peak         27%/12%/61%/0%
+  S+1        total          54%/46%/0%/0% | peak         54%/31%/15%/0%
+  Qmax-1     total          12%/0%/88%/0% | peak          12%/0%/88%/0%
+outcome split by whether the mitigated model leaves the rule region
+  Rmax-1     {'crosses_rule': {'removed': 86}, 'stays_inside_rule': {'trigger_same': 65, 'unreachable': 28}}
+  Rmax-2     {'crosses_rule': {'removed': 147}, 'stays_inside_rule': {'trigger_same': 25, 'unreachable': 7}}
+  T+1        {'stays_inside_rule': {'unreachable': 74, 'trigger_raised': 83}, 'crosses_rule': {'removed': 22}}
+  T+2        {'stays_inside_rule': {'unreachable': 72, 'trigger_raised': 58}, 'crosses_rule': {'removed': 40, 'timeout_disabled_removed': 9}}
+  S+1        {'crosses_rule': {'removed': 96}, 'stays_inside_rule': {'unreachable': 47, 'trigger_raised': 36}}
+  Qmax-1     {'stays_inside_rule': {'unreachable': 74, 'trigger_same': 83}, 'crosses_rule': {'removed': 22}}
+
+large grid: share of metastable models
+mitigation  n            removed     unreachable  trigger_raised    trigger_same  trigger_lowere  timeout_disabl  timeout_disabl  created
+Rmax-1      6744           14.2%           23.3%            5.4%           57.0%            0.0%            0.0%            0.0%        0
+Rmax-2      6582           26.7%           18.9%            9.9%           44.5%            0.0%            0.0%            0.0%        0
+T+1         6744            7.5%           27.0%           63.7%            0.0%            0.0%            1.8%            0.0%        0
+T+2         6744           13.3%           25.8%           55.8%            0.0%            0.0%            5.2%            0.0%        0
+S+1         6744           22.1%           28.0%           49.9%            0.0%            0.0%            0.0%            0.0%        0
+Qmax-1      6744            7.5%           26.9%            0.0%           63.8%            0.0%            1.8%            0.0%        0
+pattern triggers (min total load | min peak load): removed/raised/same/lowered
+  Rmax-1     total          14%/8%/77%/0% | peak          14%/0%/86%/0%
+  Rmax-2     total         27%/15%/58%/0% | peak          27%/0%/73%/0%
+  T+1        total           9%/91%/0%/0% | peak          9%/25%/66%/0%
+  T+2        total          18%/82%/0%/0% | peak         18%/23%/59%/0%
+  S+1        total          22%/78%/0%/0% | peak         22%/49%/29%/0%
+  Qmax-1     total           9%/4%/87%/0% | peak           9%/0%/91%/0%
+outcome split by whether the mitigated model leaves the rule region
+  Rmax-1     {'crosses_rule': {'removed': 960}, 'stays_inside_rule': {'unreachable': 1572, 'trigger_same': 3847, 'trigger_raised': 365}}
+  Rmax-2     {'crosses_rule': {'removed': 1758}, 'stays_inside_rule': {'unreachable': 1244, 'trigger_same': 2930, 'trigger_raised': 650}}
+  T+1        {'crosses_rule': {'timeout_disabled_removed': 120, 'removed': 504}, 'stays_inside_rule': {'unreachable': 1823, 'trigger_raised': 4297}}
+  T+2        {'crosses_rule': {'timeout_disabled_removed': 348, 'removed': 897}, 'stays_inside_rule': {'unreachable': 1737, 'trigger_raised': 3762}}
+  S+1        {'crosses_rule': {'removed': 1488}, 'stays_inside_rule': {'unreachable': 1890, 'trigger_raised': 3366}}
+  Qmax-1     {'crosses_rule': {'timeout_disabled_removed': 120, 'removed': 504}, 'stays_inside_rule': {'unreachable': 1815, 'trigger_same': 4305}}
+
+wrote /t/h/run/deep_sweep.json
+EXIT 0

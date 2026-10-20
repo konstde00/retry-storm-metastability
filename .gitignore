@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+partB_rows.json
+deep_sweep.json

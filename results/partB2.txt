@@ -1,0 +1,5 @@
+all       : metastable truths' neighbours=1432, says not metastable=226 (15.8%); of the rest, trigger same 54.6%, within 1 token 71.9%, max shift 13; false alarms from non-metastable truths: 274
+off in S  : metastable truths' neighbours=358, says not metastable=96 (26.8%); of the rest, trigger same 13.7%, within 1 token 13.7%, max shift 12; false alarms from non-metastable truths: 136
+off in T  : metastable truths' neighbours=358, says not metastable=22 (6.1%); of the rest, trigger same 26.2%, within 1 token 83.9%, max shift 12; false alarms from non-metastable truths: 16
+off in Rmax: metastable truths' neighbours=358, says not metastable=86 (24.0%); of the rest, trigger same 92.6%, within 1 token 98.2%, max shift 11; false alarms from non-metastable truths: 106
+off in Qmax: metastable truths' neighbours=358, says not metastable=22 (6.1%); of the rest, trigger same 83.9%, within 1 token 83.9%, max shift 13; false alarms from non-metastable truths: 16

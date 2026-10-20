@@ -1,0 +1,4 @@
+trials per setting=1000, candidates=544, truths drawn uniformly from the grid (179 of 544 metastable)
+W= 1 noise=0% gauge=yes jitter=no : exact fit   73%, S right  100%, all params within 1   89%, tied best fits  38% | verdict right   99%, trigger right   96%, Jaccard strong 0.97 | metastable truths n=321: verdict  100% trigger   87%, fitted trigger too high or missing    4%
+W=10 noise=10% gauge=yes jitter=yes: exact fit   41%, S right   94%, all params within 1   78%, tied best fits  28% | verdict right   95%, trigger right   92%, Jaccard strong 0.90 | metastable truths n=317: verdict   92% trigger   76%, fitted trigger too high or missing    9%
+W=10 noise=10% gauge=no  jitter=yes: exact fit   18%, S right   91%, all params within 1   53%, tied best fits  58% | verdict right   95%, trigger right   84%, Jaccard strong 0.79 | metastable truths n=331: verdict   90% trigger   53%, fitted trigger too high or missing   22%

@@ -1,0 +1,1 @@
+14256 parameter sets, fixed-point vs rule mismatches: 0, zero-input cycles longer than 1 with w>0: 0

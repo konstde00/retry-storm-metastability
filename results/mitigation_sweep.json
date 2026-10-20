@@ -1,0 +1,415 @@
+{
+  "grid_models": 544,
+  "grid_metastable": 179,
+  "model_py_sha256": "91d1e62c7e3349c2cf2fe769389b2494e11c20680a82bd341e72166a12fcbfe4",
+  "mitigations": {
+    "Rmax-1": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 0,
+      "outcomes": {
+        "removed": 86,
+        "trigger_same": 65,
+        "unreachable": 28
+      },
+      "share": {
+        "removed": 0.48,
+        "trigger_same": 0.363,
+        "unreachable": 0.156
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "removed": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            2,
+            1,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_same": {
+          "before": [
+            2,
+            2,
+            3,
+            6
+          ],
+          "after": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": 6
+        },
+        "unreachable": {
+          "before": [
+            2,
+            3,
+            3,
+            6
+          ],
+          "after": [
+            2,
+            3,
+            2,
+            6
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        }
+      }
+    },
+    "Rmax-2": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 136,
+      "outcomes": {
+        "removed": 147,
+        "trigger_same": 25,
+        "unreachable": 7
+      },
+      "share": {
+        "removed": 0.821,
+        "trigger_same": 0.14,
+        "unreachable": 0.039
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "removed": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            2,
+            0,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_same": {
+          "before": [
+            2,
+            2,
+            4,
+            6
+          ],
+          "after": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": 6
+        },
+        "unreachable": {
+          "before": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "after": [
+            2,
+            3,
+            2,
+            6
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        }
+      }
+    },
+    "T+1": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 0,
+      "outcomes": {
+        "unreachable": 74,
+        "trigger_raised": 83,
+        "removed": 22
+      },
+      "share": {
+        "unreachable": 0.413,
+        "trigger_raised": 0.464,
+        "removed": 0.123
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "unreachable": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            3,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_raised": {
+          "before": [
+            2,
+            2,
+            2,
+            7
+          ],
+          "after": [
+            2,
+            3,
+            2,
+            7
+          ],
+          "trigger_before": 6,
+          "trigger_after": 7
+        },
+        "removed": {
+          "before": [
+            2,
+            4,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            5,
+            2,
+            6
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        }
+      }
+    },
+    "T+2": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 0,
+      "outcomes": {
+        "unreachable": 72,
+        "trigger_raised": 58,
+        "removed": 40,
+        "timeout_disabled_removed": 9
+      },
+      "share": {
+        "unreachable": 0.402,
+        "trigger_raised": 0.324,
+        "removed": 0.223,
+        "timeout_disabled_removed": 0.05
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "unreachable": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            4,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_raised": {
+          "before": [
+            2,
+            2,
+            2,
+            8
+          ],
+          "after": [
+            2,
+            4,
+            2,
+            8
+          ],
+          "trigger_before": 6,
+          "trigger_after": 8
+        },
+        "removed": {
+          "before": [
+            2,
+            3,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            5,
+            2,
+            6
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        },
+        "timeout_disabled_removed": {
+          "before": [
+            2,
+            4,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            6,
+            2,
+            6
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        }
+      }
+    },
+    "S+1": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 0,
+      "outcomes": {
+        "removed": 96,
+        "unreachable": 47,
+        "trigger_raised": 36
+      },
+      "share": {
+        "removed": 0.536,
+        "unreachable": 0.263,
+        "trigger_raised": 0.201
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "removed": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            3,
+            2,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "unreachable": {
+          "before": [
+            2,
+            2,
+            3,
+            6
+          ],
+          "after": [
+            3,
+            2,
+            3,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_raised": {
+          "before": [
+            2,
+            2,
+            3,
+            8
+          ],
+          "after": [
+            3,
+            2,
+            3,
+            8
+          ],
+          "trigger_before": 6,
+          "trigger_after": 8
+        }
+      }
+    },
+    "Qmax-1": {
+      "metastable_models": 179,
+      "skipped_out_of_domain": 0,
+      "outcomes": {
+        "unreachable": 74,
+        "trigger_same": 83,
+        "removed": 22
+      },
+      "share": {
+        "unreachable": 0.413,
+        "trigger_same": 0.464,
+        "removed": 0.123
+      },
+      "created_metastability_in_safe_models": 0,
+      "example_per_outcome": {
+        "unreachable": {
+          "before": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            2,
+            2,
+            5
+          ],
+          "trigger_before": 6,
+          "trigger_after": null
+        },
+        "trigger_same": {
+          "before": [
+            2,
+            2,
+            2,
+            7
+          ],
+          "after": [
+            2,
+            2,
+            2,
+            6
+          ],
+          "trigger_before": 6,
+          "trigger_after": 6
+        },
+        "removed": {
+          "before": [
+            2,
+            4,
+            2,
+            6
+          ],
+          "after": [
+            2,
+            4,
+            2,
+            5
+          ],
+          "trigger_before": null,
+          "trigger_after": null
+        }
+      }
+    }
+  }
+}
